@@ -11,3 +11,9 @@ sources:
       - name: clientes
         description: Tabela fonte de localidades com informações pessoais de data cliente
         
+      - name: colaboradores
+        description: Tabela fonte de localidades com informações de colaboradores do banco
+        
+      - name: agencias
+        description: Tabela fonte de localidades com informações das agencias do banco
+        
