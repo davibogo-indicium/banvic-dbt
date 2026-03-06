@@ -5,4 +5,4 @@ with
     )
 
 select *
-from clientes
+from colaboradores
