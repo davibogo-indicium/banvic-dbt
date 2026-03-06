@@ -1,0 +1,12 @@
+
+    select 
+        
+        datediff(
+
+    coalesce(date(cast('2030-01-01' as date)), nvl2(date(cast('2030-01-01' as date)), assert_true(date(cast('2030-01-01' as date)) is not null), null))
+
+, 
+
+    coalesce(date(cast('2000-01-01' as date)), nvl2(date(cast('2000-01-01' as date)), assert_true(date(cast('2000-01-01' as date)) is not null), null))
+
+)
